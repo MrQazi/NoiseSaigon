@@ -1,10 +1,11 @@
-py ./main.py         #To run the scrapper
-config.py       #To configure
-                    environment
-                    facebook profile
-                    paths and selctors
+py ./main.py        #To run the scrapper
+config.py           #To configure
+                        environment
+                        facebook profile
+                        paths and selctors
 
-pages.txt       #To manage pages
+pages.txt           #To manage pages
+NoiseSaigon.csv     #To Retrieve scraped data
 
 
 Workflow:
