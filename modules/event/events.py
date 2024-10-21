@@ -62,8 +62,6 @@ def Crawl(page,type):
     driver = webdriver.Chrome(options=Options)
     driver.get(f'https://web.facebook.com/pg/{page}/{type}')
     time.sleep(PAGE_WAIT)
-    Crawl()
-    driver = webdriver.Chrome(options=Options)
     container = driver.find_element(EVENT_LIST_CONTSAINER[0], EVENT_LIST_CONTSAINER[1])
     
     for child in container.find_elements(EVENT_LIST_TILE_SELECTOR[0], EVENT_LIST_TILE_SELECTOR[1]):
